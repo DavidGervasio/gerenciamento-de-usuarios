@@ -1,0 +1,44 @@
+.user-menu-content{
+	width: 800px;
+	height: 60px;
+	position: relative;
+    top: 10px;
+	left: 0px;
+	max-width: 900px;
+	background: #ffffff;
+	-webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    1px 1px 1px rgba(50, 50, 50, 0.77);
+    box-shadow:         1px 1px 1px rgba(50, 50, 50, 0.77);
+
+}
+
+.user-menu-content a {
+	color: #6d718c;
+	font-size: 16px;
+	font-weight: 900;
+	text-decoration:none;
+	padding: 16px;
+	position: relative;
+	top: 16px;
+}
+
+.user-menu-content a:hover {
+	color:#ceccda;
+}
+
+.user-menu-content a:active {
+	background: #dfe1e9;
+	color: #dfe1e9;
+}
+
+
+/*smart phone end others*/
+@media(max-width: 600px){
+	.user-menu-content{
+		position: relative;
+		top: 80px;
+		left: 10px;
+	}
+}
+
+

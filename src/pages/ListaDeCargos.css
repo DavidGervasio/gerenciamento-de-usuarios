@@ -1,0 +1,113 @@
+#pagina {
+    background:#f5f5f5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+}
+
+#lista-de-cargos{
+    height: 800px;
+    width: 800px;
+    background:#ffffff;
+    margin-top: 20px;
+    border: 1px solid #ceccda;
+}
+
+#lista-de-cargos ul{
+    height: 100%;
+    width: 100%;
+    display: block;flex-direction: row;
+}
+
+#lista-de-cargos ul #cabecalho {
+    height: 50px;
+    max-width: 100%;
+    display: grid;
+    background:#ffffff;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    border-bottom: 1px solid #ceccda;
+    
+}
+
+
+
+#lista-de-cargos ul li{
+    background:#ffffff;
+    width: 798px;
+    height: 60px;
+    border-bottom: 1px solid #ceccda;
+    display: grid;
+    grid-template-columns: 75% 10% 15%;
+    grid-gap: 10px;
+}
+
+#lista-de-cargos ul li stronge{
+    width: 100%;
+    color: #6d718c;
+	font-size: 16px;
+	font-weight: 600;
+    text-decoration:none; 
+    margin: 20px;
+    text-align: center;
+}
+
+#lista-de-cargos ul li .edita {
+    width: 80px;
+    height: 30px;
+    margin-top: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border:2px solid  #7159c1;
+    background: #7159c1;
+    color: #ffff;
+    cursor: pointer;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:12px;
+    padding:0px 10px;
+
+}
+
+#lista-de-cargos ul li .delete {
+    width: 80px;
+    height: 30px;
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border:2px solid  #7159c1;
+    background: #ffff;
+    color: #7159c1;
+    cursor: pointer;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:12px;
+    padding:0px 10px;
+
+}
+    
+
+    
+
+
+    
+  
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
